@@ -16,16 +16,18 @@ use User\ProfileController;
 |
 */
 
-Route::get('/', function () {
+Route::middleware(['verified'])->get('/', function () {
     return view('index');
 });
 
-Route::prefix('user')->middleware(['auth', 'verified'])->name('user.')->group(function (){
-    Route::get('profile', ProfileController::class)->name('profile');
+
+Route::prefix('admin')->middleware(['auth', 'auth.isAdmin', 'verified'])->name('admin.')->group(function (){
+    Route::resource('/user', UserController::class);
 
 });
 
-Route::prefix('admin')->middleware(['auth', /*'auth.isAdmin',*/ 'verified'])->name('admin.')->group(function (){
-    Route::resource('/user', UserController::class);
+
+Route::prefix('user')->middleware(['auth', 'verified'])->name('user.')->group(function (){
+    Route::get('profile', ProfileController::class)->name('profile');
 
 });
