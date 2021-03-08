@@ -11,15 +11,15 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- User management system.
-- Laravel 08 fortify.
-- Gate handling.
-- Middleware handling.
-- CRUD handling.
-- Password reset include.
-- Email verification include.
-- Registration, Login & Logout handling.
-- User roles handling
+- **User management system.**
+- **Laravel 08 fortify.**
+- **Gate handling.**
+- **Middleware handling.**
+- **CRUD handling.**
+- **Password reset include.**
+- **Email verification include.**
+- **Registration, Login & Logout handling.**
+- **User roles handling.**
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
