@@ -11,6 +11,9 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
+<table>
+    <tr>
+        <td>
 - **User management system.**
 - **Laravel 08 fortify.**
 - **Gate handling.**
@@ -20,6 +23,9 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - **Email verification include.**
 - **Registration, Login & Logout handling.**
 - **User roles handling.**
+        </td>
+    </tr>
+</table>
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
