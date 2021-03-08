@@ -13,31 +13,31 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 <table>
     <tr><td>
-- **User management system.**
+**User management system.**
     </td></tr>
     <tr><td>
-- **Laravel 08 fortify.**
+**Laravel 08 fortify.**
     </td></tr>
     <tr><td>
-- **Gate handling.**
+**Gate handling.**
     </td></tr>
     <tr><td>
-- **Middleware handling.**
+**Middleware handling.**
     </td></tr>
     <tr><td>
-- **CRUD handling.**
+**CRUD handling.**
     </td></tr>
     <tr><td>
-- **Password reset include.**
+**Password reset include.**
     </td></tr>
     <tr><td>
-- **Email verification include.**
+**Email verification include.**
     </td></tr>
     <tr><td>
-- **Registration, Login & Logout handling.**
+**Registration, Login & Logout handling.**
     </td></tr>
     <tr><td>
-- **User roles handling.**
+**User roles handling.**
     </td></tr>
 </table>
 
